@@ -24,6 +24,12 @@ Collaboration Tools
 Version Control: GitHub/GitLab for code management and version control.
 
 Contributors
+
+
 Mateo Hysa
+
+
 Leandro Leka
+
+
 Anxhelo Belegu
