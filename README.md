@@ -3,9 +3,12 @@ Software Engineering Analysis and Design
 
 
 Project Overview
+
 This project aims to develop a web application that enables university students and staff to order food from the university canteen online. The app will provide a user-friendly interface for browsing menus, placing orders, and scheduling pick-ups, thus streamlining the canteen's operations and improving the dining experience.
 
 Features
+
+
 Menu Browsing: Users can view the daily menu with details such as ingredients, calorie count, and prices.
 Order Placement: A straightforward process for selecting items, adding them to the cart, and confirming orders.
 Order Scheduling: Options for choosing pick-up times according to user convenience.
