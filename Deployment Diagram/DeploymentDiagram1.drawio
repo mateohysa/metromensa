@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2024-01-24T13:09:00.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CJJ_KeeFJw66znEnEuhu" version="23.0.0" type="google">
+  <diagram name="Page-1" id="FMH-RGX8GbkVtLlR3dSW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aOc6uqDYyZkDBF87q0RR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="800" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iJkQMbKuVoegdz_y2-XQ-2" target="iJkQMbKuVoegdz_y2-XQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-9" value="TCP/IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iJkQMbKuVoegdz_y2-XQ-8">
+          <mxGeometry x="-0.2215" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iJkQMbKuVoegdz_y2-XQ-1" target="iJkQMbKuVoegdz_y2-XQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-2" value="&lt;b&gt;Web browser&lt;/b&gt;&lt;br&gt;&lt;br&gt;Chrome/Mozilla/Opera etc" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-7" value="&lt;b&gt;MetroMensa System Server&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446.25" y="350" width="367.5" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="iJkQMbKuVoegdz_y2-XQ-11" target="iJkQMbKuVoegdz_y2-XQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-11" value="Presentation of&#xa;of the Web-App &#xa;to the user&#xa;&lt;&lt;HTML/CSS/JS&gt;&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="475" y="400" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="iJkQMbKuVoegdz_y2-XQ-12" target="iJkQMbKuVoegdz_y2-XQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=openThin;endFill=0;exitX=0;exitY=0;exitDx=65;exitDy=0;exitPerimeter=0;startArrow=openThin;startFill=0;" edge="1" parent="1" source="iJkQMbKuVoegdz_y2-XQ-19" target="iJkQMbKuVoegdz_y2-XQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-12" value="Interface of the&#xa;database" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="525" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-14" value="Log files" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-19" value="&lt;b&gt;&lt;i&gt;Database server&lt;br&gt;&amp;lt;&amp;lt;SQL&amp;gt;&amp;gt;&lt;br&gt;&lt;/i&gt;&lt;br&gt;&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iJkQMbKuVoegdz_y2-XQ-20" value="SQL server&#xa;database" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
